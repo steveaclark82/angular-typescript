@@ -1,4 +1,8 @@
 <div>
-    <h3>Skills: </h3>
-    <p>{{ skills }}</p>
-  </div>
+  <h3>
+  Skills:
+  </h3>
+  <ul>
+  <li *ngFor="let skill of skills">{{skill}}</li>
+  </ul>
+</div>
