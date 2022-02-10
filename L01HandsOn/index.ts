@@ -28,5 +28,5 @@ class ContactCard implements Person, Contact {
 }
 
 // newPerson instance and calling sendMessage()
-let newPerson = new ContactCard('Frankeesha', 55512345678);
+let newPerson = new ContactCard('Clarke', 55512345678);
 newPerson.sendMessage();
