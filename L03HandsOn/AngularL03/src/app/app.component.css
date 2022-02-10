@@ -1,0 +1,25 @@
+#header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header img {
+    max-width: 300px;
+    border: 1px solid black;
+    box-shadow: 2px 5px 2px rgb(166, 166, 166);
+}
+h3{
+    background-color: rgb(204, 171, 235);
+    padding: 4px;
+    border: 4px dotted #e6eff6;
+    margin-right: 10em;
+    margin-left: 10em;
+}
+h5{
+    font-family: 'Courier New', Courier, monospace;
+    color: teal;
+    font-size: 20px;
+}
+p{
+    padding-right: 6em;
+    padding-left: 6em;
+}
