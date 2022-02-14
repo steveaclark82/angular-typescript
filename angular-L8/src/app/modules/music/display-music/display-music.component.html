@@ -1,0 +1,10 @@
+<div class="movies">
+    <h2>
+      Song Titles:
+    </h2>
+    <ul>
+      <li *ngFor="let music of musics">
+        <p> {{music.id + 1}}. {{music.title}} by {{music.artist}}
+      </li>
+    </ul>
+  </div>
