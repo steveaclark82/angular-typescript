@@ -5,14 +5,17 @@ import { AppComponent } from './app.component';
 import { FavoritePlacesComponent } from './favorite-places/favorite-places.component';
 
 import { PlacesService } from './services/places.service';
+import { PlaceformComponent } from './placeform/placeform.component';
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
     AppComponent,
-    FavoritePlacesComponent
+    FavoritePlacesComponent,
+    PlaceformComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,FormsModule
   ],
   providers: [PlacesService],
   bootstrap: [AppComponent]
