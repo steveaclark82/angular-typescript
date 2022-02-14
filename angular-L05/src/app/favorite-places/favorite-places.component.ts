@@ -17,7 +17,7 @@ export class FavoritePlacesComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.places = this.placeDataService.places;
+    this.placeDataService.getPlaces().subscribe(place => this.places = place);
   }
 
 }
