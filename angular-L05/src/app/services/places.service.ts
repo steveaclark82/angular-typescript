@@ -34,4 +34,8 @@ export class PlacesService {
   ];
 
   constructor() { }
+
+  getPlaces = ():Observable<Places[]> =>{
+    return of (this.places);
+  } ;
 }
