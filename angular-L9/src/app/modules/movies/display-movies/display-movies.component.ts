@@ -34,4 +34,7 @@ export class DisplayMoviesComponent implements OnInit {
       movieIndex++;
     }
   }
+  onMovieViewed(url) {
+    window.open(url);
+  }
 }
